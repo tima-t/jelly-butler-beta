@@ -47,7 +47,7 @@ To install Docker on Mac follow this quick guide: [https://docs.docker.com/docke
 
 After `.env` and `config.ts` are filled you can run the following command
 
-    mkdir logs && docker-compose up -d
+    chmod 777 wait-for.sh && mkdir logs && docker-compose up -d
 The above mentioned command will start the application in background mode.
 
 Type in the next command to check the log and verify that everything is working fine
